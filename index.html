@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<style type="text/css">
+		@media screen and (min-width: 601px) {
+ 			body {
+    			font-size: 20px;
+  				}
+			}
+		@media screen and (max-width: 600px) {
+  			body {
+    			font-size: 15px;
+  				}
+			}
+	body {
+		background-color: #8A9DA5;
+		color:  #efeff1;
+		}
+	a {
+		color:   #efeff1;
+	}
+	#header {
+		height: 80px;
+		background-color: #1e1f26;
+		display: flex;
+		justify-content: space-between;
+		position: fixed;
+	}
+	#header-img {
+		height: 80px;
+		width: auto;
+	}
+	.nav-link {
+	}
+	#company-name {
+		font-weight: bold;
+		font-size: 4vw;
+		align-self: center;
+	}
+	#nav-bar {
+		align-self: flex-end;
+	}
+	#product-video {
+		height: 400px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: rgb(239,239,241,.45);
+	}
+	#product-description {
+		color: #1e1f26;
+		background-color: rgb(239,239,241,.45);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#product-info-form {
+		height: 125px;
+		background-color: rgb(70,78,83, .45);
+		color: #efeff1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+</style>
+
+<html>
+<head>
+	<title>Starry Night CBD</title>
+</head>
+<body>
+	<div id="header">
+		<img src="https://cdn.pixabay.com/photo/2019/11/06/14/33/moon-4606246_1280.jpg" alt="logo" id="header-img">
+		 <div id="company-name">Starry Night CBD</div>
+		 <nav id="nav-bar">
+  			<a href="#product-description" class="nav-link">About Us</a> |
+  			<a href="#email-collection-form" class="nav-link">Join the Waitlist</a> |
+  			<a href="#product-video" class="nav-link">Relax Under the Stars</a>
+		</nav> 
+		
+	</div>
+	<div id="product-info-form">
+		<div id="discount-offer">
+			<p>Join our mailing list for 25% off your first order</p>
+		</div>
+		<div id="email-collection-form">
+		<form action="/https://www.freecodecamp.com/email-submit" id="form">
+			<input type="email" name="email" id="email" placeholder="yourname@email.com" required>
+			<input type="submit" name="Submit" id="submit" value="Submit">
+		</form>
+		</div>
+	</div>
+	<div id="product-video">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/YYWaJ7Hd7fQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video">Sorry, your browser doesn't allow embedded videos.</iframe>
+	</div>
+	<div id="product-description">
+		<p>Starry Night CBD is locally and ethically sourced, and available in many forms: gummy, tincture, and vape. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum varius duis at consectetur lorem donec massa sapien. Sed vulputate odio ut enim blandit volutpat maecenas volutpat. Dolor magna eget est lorem ipsum dolor sit. Malesuada fames ac turpis egestas integer eget aliquet nibh. Dolor morbi non arcu risus quis varius quam quisque. Mauris a diam maecenas sed enim ut sem. Quis vel eros donec ac odio tempor orci. Blandit aliquam etiam erat velit scelerisque. Cursus metus aliquam eleifend mi in. Sed adipiscing diam donec adipiscing tristique risus nec feugiat. Adipiscing at in tellus integer feugiat scelerisque varius morbi enim. Lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis. Condimentum lacinia quis vel eros donec ac odio tempor. Vestibulum lorem sed risus ultricies tristique.
+		</p>
+	</div>
+</html>
